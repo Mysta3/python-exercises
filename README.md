@@ -27,7 +27,7 @@ work with a pull request.
 Unless otherwise specified on the calendar or by an instructor, homework is due
 the next morning by 9:00am.
 
-## Requirements
+## Python Exercises
 
 Work through the following sections of the [Google Python
 Class](https://developers.google.com/edu/python/):
@@ -53,12 +53,3 @@ them:
 1. [Copy Special Exercise](https://developers.google.com/edu/python/exercises/copy-special)
 1. [Log Puzzle Exercise](https://developers.google.com/edu/python/exercises/log-puzzle)
 
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
