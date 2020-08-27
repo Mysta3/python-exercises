@@ -1,6 +1,7 @@
 # PYTHON CHALLENGES
 import math
 from decimal import Decimal as decimal
+from datetime import datetime as dates
 
 # # Challenge 1
 # def convert_minutes(minutes):
@@ -15,6 +16,7 @@ from decimal import Decimal as decimal
 #     print(f'{seconds} minutes == {hours} hour(s)')
 
 # convert_seconds(3600)
+
 
 # Challenge 3
 # list_of_numbers = [2, 9, 3, 11, 87, 22, 1, 11, 0]
@@ -61,3 +63,28 @@ from decimal import Decimal as decimal
 # print('------------------------------')
 # print(f' Total profit is ${total_profit}')
 # print('------------------------------')
+
+
+# Challenge 5
+# def name_shuffle(name):
+#     # split on space, store in a list variable
+#     name_list = name.split()
+
+#     # reverse order
+#     name_list.reverse()
+
+#     # join and store in new full_name variable
+#     separator = ' '
+#     name_swap = separator.join(name_list)
+#     print(name_swap)
+
+
+# name_shuffle("Test Alex")
+
+
+# Challenge 6
+# def reverse_date(date):
+#     new_date_format = dates.strptime(date, '%m/%d/%Y').strftime('%Y%d%m')
+#     print(new_date_format)
+
+# reverse_date('11/12/2019')
