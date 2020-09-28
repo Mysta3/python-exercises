@@ -161,6 +161,8 @@
 
 class UserProfile:
     def __init__(self, dob, full_name, country, state, number_of_education_years, age, expected_salary):
+        super().__init__(dob, full_name, country, state,
+                         number_of_education_years, age, expected_salary)
         self.password = ''
         self.email = None
         self.is_active = True
@@ -229,3 +231,14 @@ print(
     f'{user_1.get_age()} \n',
     f'{user_1.get_expected_salary()} \n',
 )
+
+
+class Developer(UserProfile):
+    def __init__(self):
+        pass
+        self.listOFLanguages = ['Angular', 'React', 'Vue']
+
+class Designer(UserProfile):
+    def __init__(self):
+       pass
+       self.softwarePrograms = ['Adobe Illustrator', 'Figma', 'Photo Shop']
